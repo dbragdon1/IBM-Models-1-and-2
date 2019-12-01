@@ -8,8 +8,8 @@ Files:
 		- Runs IBM Models 1 and 2 on training corpora
 		- Writes predictions to files
 		- Usage: Run 'python IBMmodels.py' in terminal
-    - Creates dev.p1.out for model 1
-    - Creates dev.p2.out for model 2
+    	- Creates dev.p1.out for model 1
+    	- Creates dev.p2.out for model 2
 Steps:
 
 	1. Run 'python IBMModels.py'
