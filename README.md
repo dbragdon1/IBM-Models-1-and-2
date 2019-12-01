@@ -8,8 +8,13 @@ Files:
 		- Runs IBM Models 1 and 2 on training corpora
 		- Writes predictions to files
 		- Usage: Run 'python IBMmodels.py' in terminal
-    	- Creates dev.p1.out for model 1
-    	- Creates dev.p2.out for model 2
+    		- Creates dev.p1.out for model 1
+    		- Creates dev.p2.out for model 2
+	- eval_alignment.py
+		- Evaluates model performance on dev set
+		- Run python "eval_alignment.py dev.key dev.p1.out" to evaluate model 1
+		- Run python "eval_alignment.py dev.key dev.p2.out" to evaluate model 2
+	
 Steps:
 
 	1. Run 'python IBMModels.py'
